@@ -186,7 +186,7 @@ header .user-link:hover
 
 #sub-header ul li a 
 {
-	padding: 14px;
+	padding: 12px;
 	display: inline-block;
 	width: 100%;
 	height: 100%;
@@ -206,7 +206,9 @@ header .user-link:hover
 	height: 20px;
 	position: relative;
 	top: 3px;
+	margin-right: 5px;
 	display: inline-block;
+	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -225,7 +227,6 @@ header .user-link:hover
 
 #sub-header ul li i.icon.fashion-photo{
 	background-image: url('icon_fashion-photo.png');
-	top: 6px;
 }
 
 #sub-header ul li i.icon.cinema{
@@ -255,7 +256,7 @@ footer
 /* Page d'accueil */
 #home
 {
-	margin-top: 152px;
+	margin-top: 150px;
 }
 
 #home .slide	
