@@ -170,6 +170,7 @@ header .user-link:hover
 
 #sub-header ul li 
 {
+	padding: 12px;
 	box-sizing: border-box;
 	margin: 0;
 	text-align: center;
@@ -186,7 +187,6 @@ header .user-link:hover
 
 #sub-header ul li a 
 {
-	padding: 12px;
 	display: inline-block;
 	width: 100%;
 	height: 100%;
@@ -206,9 +206,9 @@ header .user-link:hover
 	height: 20px;
 	position: relative;
 	top: 3px;
-	margin-right: 5px;
+	margin-right: 8px;
 	display: inline-block;
-	background-position: center;
+	background-position: center right;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -259,12 +259,6 @@ footer
 	margin-top: 150px;
 }
 
-#home .slide	
-{
-	background-image:url('concert.jpg');
-	background-size:cover;
-}
-
 h2
 {
 	color: #ed008c;
@@ -272,6 +266,12 @@ h2
 	text-transform: uppercase;
 	font-size: 18px;
 	font-family: 'caviar_dreamsitalic', sans-serif;
+}
+
+#home .slide	
+{
+	background-image:url('concert.jpg');
+	background-size:cover;
 }
 
 #home .castings-list ul,
@@ -338,7 +338,8 @@ h2
 }
 
 .artists-list,
-.partners
+.partners,
+.pro-access
 {
 	background: #181E29;
 }
