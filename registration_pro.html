@@ -84,70 +84,63 @@
 		</header>
 		<div id="home" class="container-wrapper">
 			<div class="grid">
-				<div class="box-2-2 member-registration">
-					<h2>Inscription en tant que membre</h2>
-					<form method="POST">
-						<div class="">
-							<label></label>
-							<input type="text" name=""/>
+				<div class="box-2-2 pro-registration">
+					<h2>Inscription professionnelle</h2>
+					<form action="" method="POST">
+						<div class="line">
+							<label for="c_name">Raison sociale <span class="asterisk">*</span></label>
+							<input type="text" name="c_name"/>
+							<div class="error"></div>
 						</div>
-						<div class="">
-							<label>Mot de passe</label>
-							<input type="password" name=""/>
+						<div class="line">
+							<label for="c_address">Mot de passe <span class="asterisk">*</span></label>
+							<input type="text" name="c_address"/>
+							<div class="error"></div>
 						</div>
-						<div class="">
+						<div class="line">
+							<label for="c_postal_code">Code Postal <span class="asterisk">*</span></label>
+							<input type="text" name="c_postal_code"/>
+							<div class="error"></div>
+						</div>
+						<div class="line">
+							<label for="c_town">Ville <span class="asterisk">*</span></label>
+							<input type="text" name="c_town"/>
+							<div class="error"></div>
+						</div>
+						<div class="line">
+							<label for="c_siret">SIRET <span class="asterisk">*</span></label>
+							<input type="text" name="c_siret"/>
+							<div class="error"></div>
+						</div>
+						<div class="line">
+							<label for="c_email">Email <span class="asterisk">*</span></label>
+							<input type="text" name="c_email"/>
+							<div class="error"></div>
+						</div>
+						<div class="line">
+							<label for="c_phone">Téléphone <span class="asterisk">*</span></label>
+							<input type="text" name="c_phone"/>
+							<div class="error"></div>
+						</div>
+						<div class="line">
+							<label for="c_website_url">Site Internet</label>
+							<input type="text" name="c_website_url"/>
+							<div class="error"></div>
+						</div>
+						<div class="line">
+							<input type="checkbox" name="c_cgu"/>
+							<label for="c_cgu">CGU</label>
+							<div class="error"></div>
+						</div>
+						<div class="line">
 							<input type="submit" value="Se connecter"/>
-						</div>
-						<div>
-							<a href="#">Pas encore membre ?</a>
 						</div>
 					</form>
 				</div>
-				<div class="box-1-2 pro-registration">
-					<h2>Inscription pro</h2>
+				<div class="box-1-2 blabla">
+					<h2>Blabla</h2>
 					<form action="" method="POST">
-						<div class="">
-							<label>Raison sociale</label>
-							<input type="text" name="c_name"/>
-						</div>
-						<div class="">
-							<label>Mot de passe</label>
-							<input type="text" name="c_address"/>
-						</div>
-						<div class="">
-							<label>Code Postal</label>
-							<input type="text" name="c_postal_code"/>
-						</div>
-						<div class="">
-							<label>Ville</label>
-							<input type="text" name="c_town"/>
-						</div>
-						<div class="">
-							<label>SIRET</label>
-							<input type="text" name="c_siret"/>
-						</div>
-						<div class="">
-							<label>Email</label>
-							<input type="text" name="c_email"/>
-						</div>
-						<div class="">
-							<label>Téléphone</label>
-							<input type="text" name="c_phone"/>
-						</div>
-						<div class="">
-							<label>Site Internet</label>
-							<input type="text" name="c_website_url"/>
-						</div>
-						<div class="">
-							<input type="checkbox" name="c_country" value="c_cgu"/>
-							<label>CGU</label>
-						</div>
-						<div class="">
-							<input type="submit" value="Se connecter"/>
-						</div>
-						<div>
-							<a href="#">Pas encore membre ?</a>
-						</div>
+
 					<form>
 				</div>
 			</div>

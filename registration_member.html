@@ -84,55 +84,81 @@
 		</header>
 		<div id="home" class="container-wrapper">
 			<div class="grid">
-				<div class="box-2-1 member-access">
-					<h2>Accès membre</h2>
+				<div class="box-2-2 member-pro">
+					<h2>Inscription en tant que membre</h2>
 					<form method="POST">
-						<div class="">
-							<label>Nom *</label>
-							<input type="text" name=""/>
+						<div class="line">
+							<label for="m_name">Nom <span class="asterisk">*</span></label>
+							<input type="text" name="m_name"/>
+							<div class="error"></div>
 						</div>
-						<div class="">
-							<label>Prénom *</label>
-							<input type="text" name=""/>
+						<div class="line">
+							<label for="m_first_name">Prénom <span class="asterisk">*</span></label>
+							<input type="text" name="m_first_name"/>
+							<div class="error"></div>
 						</div>
-						<div class="">
-							<label>Date de naissance *</label>
-							<input type="date" name=""/>
+						<div class="line">
+							<label for="m_date_birth">Date de naissance <span class="asterisk">*</span></label>
+							<input type="date" name="m_date_birth"/>
+							<div class="error"></div>
 						</div>
-						<div class="">
-							<label>Profession principale *</label>
-							<select name="">
+						<div class="line">
+							<label for="m_main_job">Profession principale <span class="asterisk">*</span></label>
+							<select name="m_main_job">
 								<option value="">
 							</select>
+							<div class="error"></div>
 						</div>
-						<div class="">
-							<label>Sexe *</label>
-							<input type="radio" name="" value="Homme"/>
-							<input type="radio" name="" value="Femme"/>
+						<div class="line">
+							<label for="m_sexe">Sexe <span class="asterisk">*</span></label>
+							<input type="radio" name="m_sexe" value="Homme"/>
+							<input type="radio" name="m_sexe" value="Femme"/>
+							<div class="error"></div>
 						</div>
-						<div class="">
-							<label>Email *</label>
-							<input type="date" name=""/>
+						<div class="line">
+							<label for="m_email">Email <span class="asterisk">*</span></label>
+							<input type="text" name="m_email"/>
+							<div class="error"></div>
 						</div>
-						<div class="">
-							<label>Téléphone *</label>
-							<input type="date" name=""/>
+						<div class="line">
+							<label for="m_phone">Téléphone</label>
+							<input type="text" name="m_phone"/>
+							<div class="error"></div>
 						</div>
-						<div class="">
-							<label>Adresse *</label>
-							<input type="date" name=""/>
+						<div class="line">
+							<label for="m_address">Adresse</label>
+							<input type="text" name="m_address"/>
+							<div class="error"></div>
 						</div>
-						<div class="">
+						<div class="line">
+							<label for="m_postal_code">Code Postal</label>
+							<input type="text" name="m_postal_code"/>
+							<div class="error"></div>
+						</div>
+						<div class="line">
+							<label for="m_town">Ville</label>
+							<input type="text" name="m_town"/>
+							<div class="error"></div>
+						</div>
+						<div class="line">
+							<label for="m_country">Pays</label>
+							<input type="text" name="m_country"/>
+							<div class="error"></div>
+						</div>
+						<div class="line">
+							<input type="checkbox" name="m_cgu"/>
+							<label for="m_cgu">CGU <span class="asterisk">*</span></label>
+							<div class="error"></div>
+						</div>
+						<div class="line">
 							<input type="submit" value="Se connecter"/>
 						</div>
-						<div>
-							<a href="#">Pas encore membre ?</a>
-						</div>
 					</form>
+					<div class="line info">(Les champs comportant des *<span class="italic">astérisques</span>* sont obligatoires)</div>
 				</div>
-				<div class="box-1-1 pro-access">
+				<div class="box-1-2 goto-pro-registration">
 					<h2>Obtenir un compte pro</h2>
-					<a>
+					<a href="registration_pro.html">Cliquez ici</a>
 				</div>
 			</div>
 		</div>

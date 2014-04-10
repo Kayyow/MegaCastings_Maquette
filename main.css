@@ -72,7 +72,7 @@ footer,
 }
 
 .box-1-1,
-.box-1-2												/* GUY TEUB */
+.box-1-2
 {
 	width: 33.33333333333%;
 }
@@ -339,7 +339,9 @@ h2
 
 .artists-list,
 .partners,
-.pro-access
+.pro-access,
+.pro-registration,
+.goto-pro-registration
 {
 	background: #181E29;
 }
@@ -438,4 +440,36 @@ h2
 	-moz-transition:.2s all ease-in;
 	-o-transition:.2s all ease-in;
 	-ms-transition:.2s all ease-in;
+}
+
+#home form .line
+{
+	margin: 15px;
+}
+
+#home form label
+{
+	display: block;
+	float: left;
+	width: 170px;
+}
+
+#home form input
+{
+	width: auto;
+}
+
+.italic
+{
+	font-style: italic;
+}
+
+.info
+{
+	font-size: small;
+}
+
+.asterisk
+{
+	color: #ed008c;
 }
